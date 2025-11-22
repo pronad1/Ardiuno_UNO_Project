@@ -1,4 +1,4 @@
-###To set up a standalone ATmega328 on a breadboard using an Arduino Uno for programming, you need a minimal circuit and specific connections for power, timing, and programming. 
+## To set up a standalone ATmega328 on a breadboard using an Arduino Uno for programming, you need a minimal circuit and specific connections for power, timing, and programming. 
 Required Components
 - ATmega328 (DIP package, preferably pre-bootloaded)
 - Breadboard
