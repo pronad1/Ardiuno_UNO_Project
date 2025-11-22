@@ -1,7 +1,7 @@
-**Component,        Pin Name,           Arduino Pin,          Notes
+  Component,        Pin Name,           Arduino Pin,          Notes
 ESP8266 Wi-Fi,         TX,                D2,           Arduino listens here
 ESP8266 Wi-Fi,         RX,                D3,           Arduino talks here
 Water Pump,            IN (Relay),        D6,           Active LOW (LOW=ON)
 DHT11,                 Data,              D5,           Temp & Humidity
 Soil Sensor,           Signal,            A0,           0-1023 Analog
-Water Density,         Signal,            A1,           Turbidity/TDS Sensor**
+Water Density,         Signal,            A1,           Turbidity/TDS Sensor
