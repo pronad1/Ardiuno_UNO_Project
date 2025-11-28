@@ -8,4 +8,3 @@ Required Components
 - One 10 kΩ resistor
 - Jumper wires
 - (Optional) 0.1 uF capacitor between VCC and GND for decoupling
-![ATmega328P (DIP-28) pinout and photo](./atmega328.png)

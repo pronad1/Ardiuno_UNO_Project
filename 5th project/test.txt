@@ -5,7 +5,10 @@ ESP8266 Wi-Fi,         RX,                D3,           Arduino talks here
 Water Pump,            IN (Relay),        D6,           Active LOW (LOW=ON)
 DHT11,                 Data,              D5,           Temp & Humidity
 Soil Sensor,           Signal,            A0,           0-1023 Analog
-Water Density,         Signal,            A1,           Turbidity/TDS Sensor
+Water Density,         Signal,            A1,           Turbidity/TDS 
+Buzzer                 long leg           D4            Control 
+Buzzer                 sort leg           GND
+Sensor
 
 
 
@@ -15,6 +18,9 @@ GND, GND
 CH_PD (EN),3.3V
 RX, Pin 3
 TX, Pin 2
+If ESP take long time to reset then need to hard coding manually that is :-
+'Connect RST to VCC just for one time'
+
 
 Pump Power Wiring:
 
