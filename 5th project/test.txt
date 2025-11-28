@@ -18,6 +18,9 @@ GND, GND
 CH_PD (EN),3.3V
 RX, Pin 3
 TX, Pin 2
+If ESP take long time to reset then need to hard coding manually that is :-
+'Connect RST to VCC just for one time'
+
 
 Pump Power Wiring:
 
